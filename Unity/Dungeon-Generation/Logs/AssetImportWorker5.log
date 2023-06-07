@@ -1,0 +1,212 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Dobby/Documents/GitHub/Dungeon-Generation/Unity/Dungeon-Generation
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61180
+Successfully changed project path to: C:/Users/Dobby/Documents/GitHub/Dungeon-Generation/Unity/Dungeon-Generation
+C:/Users/Dobby/Documents/GitHub/Dungeon-Generation/Unity/Dungeon-Generation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 101.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dobby/Documents/GitHub/Dungeon-Generation/Unity/Dungeon-Generation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8041 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010363 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.75 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (597ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dobby\Documents\GitHub\Dungeon-Generation\Unity\Dungeon-Generation\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dobby\Documents\GitHub\Dungeon-Generation\Unity\Dungeon-Generation\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1083ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (22.9 MB). Loaded Objects now: 4894.
+Memory consumption went from 214.8 MB to 191.8 MB.
+Total: 4.522700 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.233400 ms MarkObjects: 2.125200 ms  DeleteObjects: 1.954700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 255909.739048 seconds.
+  path: Assets/Import/Bitlands 1.0/Character/Atack/Atack_front_view.png
+  artifactKey: Guid(a9e0d2f03a6cc684d8f4b9a0c0c4d947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Character/Atack/Atack_front_view.png using Guid(a9e0d2f03a6cc684d8f4b9a0c0c4d947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa291122900edb440291a36c64cd144') in 0.101986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.712635 seconds.
+  path: Assets/Import/Bitlands 1.0/Character/Dead/Dead_front_view.png
+  artifactKey: Guid(6e988a5b804076949b941b8be276af79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Character/Dead/Dead_front_view.png using Guid(6e988a5b804076949b941b8be276af79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ef9cfdcbedb599659ee76d45d19f53') in 0.016140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491886 seconds.
+  path: Assets/Import/Bitlands 1.0/Character/Idle/Idle_front_view.png
+  artifactKey: Guid(b2eebbb5800bb164abaec1fa43264811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Character/Idle/Idle_front_view.png using Guid(b2eebbb5800bb164abaec1fa43264811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4c5bf86f08a47f6371499dc2a812b6') in 0.014115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/Bitlands 1.0/Character/Idle/Idle_side_view.png
+  artifactKey: Guid(75e4e6b47e8db4147bab4a220fee727e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Character/Idle/Idle_side_view.png using Guid(75e4e6b47e8db4147bab4a220fee727e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9df676bd204219983d0f6ecf546a6a') in 0.016846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.463174 seconds.
+  path: Assets/Import/Bitlands 1.0/Enemies/Bat/Atack/Atack_front_view.png
+  artifactKey: Guid(43d9cd9352c16b24492e8002882ce37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Enemies/Bat/Atack/Atack_front_view.png using Guid(43d9cd9352c16b24492e8002882ce37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0faac3109bff6077b1ea1fb4ac9e3c3') in 0.019554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Import/Bitlands 1.0/Enemies/Slime/Atack/Atack_side_view.png
+  artifactKey: Guid(9a7d81767235cad48bd13e9c0f08e0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Enemies/Slime/Atack/Atack_side_view.png using Guid(9a7d81767235cad48bd13e9c0f08e0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04d2b796fc574f274978798ccf9e9f0') in 0.022562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Import/Bitlands 1.0/Enemies/Bat/Atack/Atack_side_view.png
+  artifactKey: Guid(3960b5649e211fc44904609f2aec9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Enemies/Bat/Atack/Atack_side_view.png using Guid(3960b5649e211fc44904609f2aec9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56d6830ef099c4be4aa3dde3128a614') in 0.019278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.309945 seconds.
+  path: Assets/Import/Bitlands 1.0/Enemies/Bat/Idle/Idle_side_view.png
+  artifactKey: Guid(27f7a2822d15f264ca081f302ac720c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Bitlands 1.0/Enemies/Bat/Idle/Idle_side_view.png using Guid(27f7a2822d15f264ca081f302ac720c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aa81083ab8b42ad0dbc44cc698366d') in 0.016378 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
